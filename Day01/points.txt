@@ -1,0 +1,305 @@
+Python
+------
+why?
+
+1. readymade functions
+2. implicit declaration
+3. data type is dynamic
+
+4. python is an open source
+
+	a. desktop app 	-	Python + tk(toolkit) tkinter
+	
+	b. web app		 	-	flask, Django, Pyramid
+
+	c. mobile app		-	kivy
+
+	d. Webscrapping	- 	beautiful soup, scrappy
+
+	e. ETL 				-	Extraction Transformation and loading - petl
+
+	f. Automation		-	
+
+	g. Testing			-	pytest, selenium, unittest
+
+	h.	Data Science
+
+		a. data analytics		-	extract data from source, cleansing, aggregate 											functions, graphs are plotted
+
+		b. ML							
+	
+		c. AI
+
+
+www.python.org							3.10.x
+www.activestate.com					3.9
+
+
+python
+======
+2.x vs 3.x
+
+2.x
+----
+print "hello"
+
+
+3.x
+----
+print("hello")
+
+3.10.4 => 3.9.x
+
+
+2to3 = > migrate the code from 2.x to 3.x
+
+
+flovours of python
+-------------------
+1. Cpython				- currently using
+	
+2. Jython				- convert python code to java code
+
+3. Iron Python			- dot net libraries
+
+
+Editors
+-------
+IDLE				-	Integrated Development Environment
+
+Notepad++		-	Add new libs
+
+Pycharm			-	intelliJ
+
+	1. studio
+	2. CE	Open Source 
+
+Visual Studio Code (CE)
+
+Eclipse
+
+Sublime Text
+
+Jupyter notebook (anaconda)
+
+
+Python 3.10.4
+-------------
+1. sdk -> to execute python
+
+2. IDLE	-> editor
+
+3. Shell -> interactive environment
+
+
+Operators overloaded
+--------------------
++ => addition and concatenation
+
+* => multiplication and print a string n number of times
+
+
+module   - imp
+function - reload 
+
+
+import imp	=> all the functions of imp will be loaded
+
+from imp import reload	=> load only the reload function and reload becomes 
+									local to the environment
+
+
+
+
+Python Coding rules
+-------------------
+#!		- shebang 	- python executable
+
+
+PEP - 8
+-------
+PEP - Python Enhancement Proposal
+
+
+The Zen of python
+
+
+Naming Convensions
+------------------
+'explicit is better than implicit'
+
+
+Naming Style
+------------
+
+Functions		use a lowercase word or words, seperate words 		fun, my_fun
+					by underscore
+
+
+varible 		 	use a lowercase single letter, word or words			i,var,my_var
+					seperate words with underscore
+
+
+class				start each class name with a capital letter. Do		Myclass, Player
+					not sepereate words with underscore. This style
+					is called as camel case
+
+
+Method			use a lowercase single letter, word or words			class_method
+					seperate words with underscore 
+
+
+constant			use uppercase single letter, word or words.			MY_CONSTANT
+					seperate words with underscore for better
+					readability
+
+
+Module			use short lowercase word or words. seperate
+					words with underscore for better readability			my_module.py
+
+
+Package			use short lowercase word or words. seperate
+					words with underscores
+
+
+CODE LAYOUT
+-----------
+'beatiful is better than ugly"
+
+class Firstcls:
+pass
+
+
+class Secondcls:
+pass
+
+
+class Thirdcls:
+	
+	def test():
+		pass
+
+
+	def test1():
+		pass
+
+
+INDENTATION
+-----------
+'there should be one and preferably only one obvious way to do it.'
+
+
+def fun():
+	print("this is function fun code....")
+
+	for i in range(1, 26):
+		print("this is for loop code....")
+		
+
+		if i % 2 == 0:
+			print("this is if condition code.....")
+			print(i)
+
+		elif i % 2 == 0:
+
+			print(i)
+
+
+		print("this is for loop code....")
+		print("this is function fun code....")
+
+	print("this is function fun code....")
+	print("this is function fun code....")
+
+
+print("this code belongs to __main__ module")
+
+
+
+if x > a and
+	x < b):
+	print(x)
+	print(x)
+	print(x)
+	print(x)
+	print(x)
+	print(x)
+	print(x)
+
+print("hello world")
+
+Comments
+--------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
