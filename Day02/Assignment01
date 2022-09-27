@@ -1,0 +1,70 @@
+Assigmnet 1)
+1
+23
+456
+78910
+
+Assigmnet 2)
+1
+11
+111
+1111
+11111
+
+Assigmnet 3)
+1
+22
+333
+4444
+55555
+
+Assigmnet 4)
+	0,1,1,2,3,5,8,.........................
+
+Assigmnet 5)
+     1=1!
+     2=2!
+    145=1!+4!+5!
+		 1 + 24 + 120
+		= 145
+
+	???
+
+
+Assignment 6)
+		1
+	   1 2
+	  1 2 3
+     1 2 3 4
+    1 2 3 4 5
+     1 2 3 4
+      1 2 3
+       1 2
+        1
+
+Assignment 7) pascals traingle
+   1
+   1 1
+   1 2 1
+   1 3 3 1
+   1 4 6 4 1
+   1 5 10 10 5 1
+
+
+Assignment 8 (greedy ? )
+	farmer -> 3 daughters -> each daughter had a son
+        farmer had  mangoes in a room
+        farmer promisses his daughters that he is going distribute mangoes to them equally in the evening after his shopping.
+        In the absence of the father 1st daughter enters the room without the knowledge of her siblings
+	She makes three divisions of the available mangoes in the room and 1 mango was extra she gives that to her child, takes 1 division(heap) and mixes other two divsions and leaves the room.
+	Now 2nd daughter same idea and same execution
+	Now 2rd daughter same idea and same execution
+       Finally the father enters the room and finds some mangoes and distributes it as he promised.
+
+  how many mangoes were there in the room? num1,num2,num3
+
+
+
+
+
+
