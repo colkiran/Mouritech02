@@ -1,0 +1,20 @@
+
+Strings
+--------
+1. strings are immutable
+
+st = "abc"
+
+
+class Product:
+
+    def __init__(self, pname):
+        self.pname = pname
+
+    #setter methods
+
+p1 = Product("Kit Kat")
+
+TypeError: 'str' object does not support item assignment
+
+

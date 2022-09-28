@@ -1,0 +1,30 @@
+
+
+Assignment-01
+st = "The Quick Brown Fox Jumps Over The Lazy Dog"
+convert all upper case char to lower case and all lower case to upper case
+
+Assignment-02
+st = "The Quick Brown Fox Jumps Over The Lazy Dog"
+count how many vowels are there in the string
+
+Assignment-03
+st = "The Quick Brown Fox Jumps Over The Lazy Dog"
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
+    print all the characters that is not in vowels
+    print all indexes where the vowels are found in the string
+
+
+Assignment-04
+
+write a code to generate the following table
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
