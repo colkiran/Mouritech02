@@ -1,0 +1,48 @@
+
+Data Structures
+----------------
+1. lists        ->  arrays
+2. dictionaries ->  hash or associative array
+3. tuples       ->  immutable list
+4. set          ->
+
+
+
+Lists
+-----
+
+similar to array
+
+arrays?
+-------
+1. collection of homogenous data
+2. memory allocation is contigious
+
+lists
+-----
+1. lists are collection of hetrogenous data
+2. memory allocation is not contigious
+3. lists are mutable
+4. lists are subscriptable
+5. ordered collection
+6. lists are stored in []
+
+List Manipulation functions
+---------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+Add values into a list
+----------------------
+1. append
+2. extend
+3. insert
+
+Delete values from a list
+-------------------------
+1. remove
+2. pop
+3. clear
+
+
+
+
