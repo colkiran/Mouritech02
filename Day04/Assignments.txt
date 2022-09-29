@@ -1,0 +1,7 @@
+
+Assignment 01
+write a code to create a identity matrix
+
+Assignment 02
+write a code to create a magic matrix
+https://www.youtube.com/watch?v=GYBr8n-_Rq4
