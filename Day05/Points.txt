@@ -1,0 +1,40 @@
+
+Lists
+-----
+1. sort, reverse
+
+
+sort
+----
+1. sort     -    sort function will sort the original list and does not                    return anything
+2. sorted   -   will take a copy of the list and sorts it and then returns                it as result, the original list remains the same
+
+Dictionary
+----------
+1. hash, associative array
+2. unordered collection
+3. mutable
+4. {k: v, k: v, k: v.....}
+5. all keys in a dictionary is unique
+
+Dictionary manipulation functions
+----------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+tuple
+-----
+1. immutable lists
+2. enclosed in ()
+3. a = 1, 2, 3  => a = ( 1, 2, 3,)
+    b = 1, => b =(1, )
+4. count, index
+
+
+set
+---
+1. elements of a set is unique
+2. sets are unordred collection
+3. set cannot be subscripted
+4. sets are mutable -   add, update, pop, remove, discard
+5. sets are enclosed in {}
+6. frozensets are immutable
