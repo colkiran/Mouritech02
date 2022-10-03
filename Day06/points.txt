@@ -1,0 +1,37 @@
+tuples
+------
+1. immutable lists
+2. enclosed in ()
+3. count, index
+
+set
+----
+1. sets are a collection of unique values
+2. sets are not subscriptable       -> cannot be indexed
+3. sets are unordered collection
+4. sets are mutable
+5. sets are enclosed in { }
+
+Functions
+----------
+1. snippet of code that is reused we convert it into a function
+
+
+a. calling a function
+b. passing args to a function
+c. return a value from a function
+d. named arguments (*args, **kwargs)
+e. recursive calls
+f. no of args returned by a function
+g. variable length args
+h. doc strings
+i. lambdas
+j. scope of a variable
+k. decorator
+
+Lambdas
+-------
+1. anonymous function
+2. single expression
+
+result_expression = lambda var1, var2, var3....: expression
