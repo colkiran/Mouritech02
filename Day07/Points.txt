@@ -1,0 +1,33 @@
+
+comprehension
+-------------
+comprehension - iterating through a collection using lambda syntax
+
+scopes
+------
+1. global       -    declared outside the function
+2. local        -    declared inside the function
+3. non local    -
+
+Decorator
+---------
+call a decorator using a function or a class
+
+@dblogin
+withdraw(10000, 345345)
+    sql -> update
+
+# This function should always return a positive result
+
+@swap
+def sub(x, y):
+    return(x - y)
+
+sub(10, 5)
+sub(10, 30)
+
+
+
+
+
+
