@@ -15,3 +15,28 @@ def diff(x, y):
 diff(30, 12)            = 18
 
 diff(12, 30)            =-18
+
+File Handling
+-------------
+Generic concepts
+
+open a file
+    a. read
+    b. write
+    c. apppend
+
+1. CSV files
+2. Json file
+3. XML file
+4. Excel file
+5. Database - (Mysql)
+6. pdf file
+
+Database - ORM - sqlalchemy
+
+
+
+
+
+
+
