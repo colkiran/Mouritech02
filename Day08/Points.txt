@@ -1,0 +1,17 @@
+
+pip install emojis
+
+
+HOF => function as an argument, and print the args the function takes. Function can take 0 or more argument
+
+def fun():
+
+------------------------------------------------------------------------------
+
+@swap
+def diff(x, y):
+    returns x - y
+
+diff(30, 12)            = 18
+
+diff(12, 30)            =-18
