@@ -7,7 +7,7 @@ cursor= conn.cursor()
 
 query = """
 create table player (
-plyid int AUTO_INCREMENT PRIMARY KEY,
+plyid INTEGER PRIMARY KEY AUTOINCREMENT ,
 plyname varchar(50) not null,
 sport varchar(50) not null,
 acheivement varchar(50) not null
