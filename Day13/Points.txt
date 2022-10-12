@@ -1,0 +1,41 @@
+
+overload the constructor
+
+
+Abstract Class
+--------------
+
+Packages and Modules
+--------------------
+Modules
+-------
+Modules as libraries
+
+modules will have the same extension as a normal python file
+
+any python file can be considered as a module
+
+Packages
+--------
+packages are same as folders or directories
+
+packages will have modules strored inside it
+
+
+packages are compared with class in oops
+
+to create an object of a class we need a constructor __init__()
+
+to consider a folder as a package we need __init__.py file (2.x)
+
+when ever we inport a module from a package then __init__.py will first be executed
+
+
+import a module
+---------------
+1. module will get converted on bytecode => .py file => .pyc file
+
+
+
+
+

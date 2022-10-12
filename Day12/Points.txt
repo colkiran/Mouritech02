@@ -1,0 +1,16 @@
+
+operator overloading
+--------------------
+Magic Methods
+--------------
++      = __add__()
+
+Magic Methods
+-------------
+1. +
+2. -
+3. *
+4. /
+5. //
+
+
