@@ -1,0 +1,74 @@
+
+import module
+
+import module as m
+
+from module import fun1, fun2, fun3.....
+
+from module import class1, class2, class3......
+
+import package.module
+
+from package import module1, module2, module3......
+
+from package import *
+
+cls
+
+Regular Expression
+------------------
+*   -   series of characters
+?   -   single character
+
+dir *.txt
+
+dir ?a*.txt
+
+Yesterday I have raised a ticket with no 23423451 for internet not working
+
+\d+
+t\w+
+
+Basic Regular Expression
+------------------------
+.       -    Single character
+
+^       -    Beginning of the string
+$       -    End of the string
+
+*       -   zero or more occurances
+?       -   zero or one occurance
++       -   one or more occurances
+{n}     -   exactly n times
+{n, }   -   min times and max any number of times
+{n, m}  -   min n times and max m times
+[]      -   character class
+()      -   grouping
+|       -   alternation
+\       -   supress the regex characters in search
+
+
+License Number
+--------------
+
+lno = LCNO-KAR-05-2015-4292
+
+LCNO - LCNO no changes
+
+KAR - KAR, TND, KER, APN, TEL, MAH
+
+05 - RTO - 01 - 73 (no 00)
+
+2015 - year - 2000+
+
+4292 - 0001 - 9999 (no 0000)
+
+
+lno = "LCNO-KAR"
+
+res = re.search('LCNO-()-()-()'
+
+'LCNO-(KAR|TND|KER|APN|TEL|MAH)([1-9]?[0-3]])({4}[2000-2015])({4}[0001-9999])'
+
+
+
