@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mouritech02.egg-info/PKG-INFO
+src/mouritech02.egg-info/SOURCES.txt
+src/mouritech02.egg-info/dependency_links.txt
+src/mouritech02.egg-info/top_level.txt
+src/mouritech02_package_root/__init__.py
+src/mouritech02_package_root/mouritech02.py
