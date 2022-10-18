@@ -1,0 +1,5 @@
+2022-10-18 11:34:46,667 : DEBUG : root : the difference of 20 and 10 is :10
+2022-10-18 11:34:46,667 : INFO : root : the difference of 20 and 10 is :10
+2022-10-18 11:34:46,667 : WARNING : root : the difference of 10 and 20 is :-10
+2022-10-18 11:34:46,667 : ERROR : root : the difference of 10 and 20 is :-10
+2022-10-18 11:34:46,667 : CRITICAL : root : the difference of 10 and 20 is :-10

@@ -1,0 +1,4 @@
+2022-10-18 11:58:51,359 : INFO : parent : this is info message
+2022-10-18 11:58:51,359 : WARNING : parent : this is warning message
+2022-10-18 11:58:51,359 : ERROR : parent : this is error message
+2022-10-18 11:58:51,359 : CRITICAL : parent : this is critical message

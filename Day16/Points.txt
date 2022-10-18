@@ -1,0 +1,29 @@
+
+Exceptions and Logging
+----------------------
+
+logging module
+--------------
+
+different logging levels
+value       Name
+10          DEBUG
+20          INFO
+30          WARNING
+40          CRITICAL
+
+default logger - root logger
+
+Exceptions
+-----------
+try:
+except:
+else:
+finally:
+
+sys module
+import sys
+sys.exc_info()
+
+custom exception to cmp two list
+---------------------------------------------

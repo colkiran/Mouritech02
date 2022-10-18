@@ -1,0 +1,12 @@
+2022-10-18 12:08:04,517 : INFO : parent : this is info message
+2022-10-18 12:08:04,517 : WARNING : parent : this is warning message
+2022-10-18 12:08:04,517 : ERROR : parent : this is error message
+2022-10-18 12:08:04,517 : CRITICAL : parent : this is critical message
+2022-10-18 12:17:56,165 : INFO : parent : this is info message
+2022-10-18 12:17:56,165 : WARNING : parent : this is warning message
+2022-10-18 12:17:56,170 : ERROR : parent : this is error message
+2022-10-18 12:17:56,170 : CRITICAL : parent : this is critical message
+2022-10-18 12:18:19,951 : INFO : parent : this is info message
+2022-10-18 12:18:19,951 : WARNING : parent : this is warning message
+2022-10-18 12:18:19,951 : ERROR : parent : this is error message
+2022-10-18 12:18:19,951 : CRITICAL : parent : this is critical message
