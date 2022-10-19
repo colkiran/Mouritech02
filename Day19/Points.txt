@@ -1,0 +1,20 @@
+
+Methods
+-------
+1. Instance Methods         - a. called with objects,
+                              b. take the first argument as object (self)
+
+2. Class Methods            - called with class name,
+                              Factory pattern
+                              takes the first argument as class name
+
+3. Static Methods           - called with class name,
+                              general utility
+                              takes no default argument
+
+Iterators       -
+
+Generators      -    Generators vs Exceptions
+
+
+Coroutines
