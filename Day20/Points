@@ -1,0 +1,26 @@
+
+Django      -   Open source web framework - MVC pattern
+Flask       -   Normal web application as well as MVC (mvc-flask)
+Pyramid
+
+django - Lawerence Journal World - 2003
+       - available to public from 2005
+
+www.google.com
+
+1. create a project
+    django-admin startproject myproject
+        a. settings.py
+        b. urls.py
+
+2. create an app
+    cd myproject    -   manage.py
+
+    python .\manage.py startapp helloworld
+        __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+        urls.py         -   create a new file
