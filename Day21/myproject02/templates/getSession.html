@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Get Session </title>
+</head>
+<body>
+    {% for key in keys %}
+        <h3> {{key}} </h3>
+    {% endfor %}
+<hr>
+    <h2> {{prdname}} </h2>
+    <h2> {{product}} </h2>
+    <h2> {{price}} </h2>
+<hr>
+    {% for item in item %}
+        <h2> {{item}} </h2>
+    {% endfor %}
+<hr>
+    {% for key, value in item %}
+        <h2>{{key}} => {{value}}</h2>
+    {% endfor %}
+</body>
+</html>
