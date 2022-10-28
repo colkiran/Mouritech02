@@ -1,0 +1,23 @@
+
+login page -> username and pwd
+
+capture the username and write it into a session
+
+nextime if the user chooses the login page => if the session is alive then
+        display a page with message user logged in successfully else redirect him
+        to the login page.
+
+
+REST API
+--------
+REST - Representational State Transfer
+
+API - Application Program Interface
+
+RESTful -> JSON - Javascript object Notation
+
+
+
+serializers.py
+p
+
