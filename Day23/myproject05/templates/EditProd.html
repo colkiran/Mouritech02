@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Edit Product Detials </title>
+</head>
+<body>
+    <center>
+        <h1> Edit and Update Product Details </h1>
+        <h3> Thie Product ID is {{products.id}} </h3>
+        <hr>
+        <form method="POST" action="UpdateProd/{{products.id}}">
+            {% csrf_token %}
+            <table border = "1">
+                <tr>
+                    <td> Product Name :</td>
+                    <td> <input type="text" name="prdname" value="{{products.prodname}}"> </td>
+                </tr>
+                <tr>
+                    <td> Manufacturer :</td>
+                    <td> <input type="text" name="mnftr" value="{{products.mnftr}}"> </td>
+                </tr>
+                <tr>
+                    <td> Category :</td>
+                    <td> <input type="text" name="cat" value="{{products.category}}"> </td>
+                </tr>
+                <tr>
+                    <td> Product Type :</td>
+                    <td> <input type="text" name="ptype" value="{{products.prodtype}}"> </td>
+                </tr>
+                <tr>
+                    <td> Price :</td>
+                    <td> <input type="text" name="prc" value="{{products.price}}"> </td>
+                </tr>
+            </table>
+            <input type="submit" value="UpdateProd">
+            <a href = 'products'> Home Page </a>
+                {% if messages %}
+                    {% for msg in messages %}
+                        <b style="color: green"> {{ msg }}</b>
+                    {% endfor %}
+                {% endif %}
+        </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Django CRUD Example </title>
+</head>
+<body>
+    <center>
+        <h1> Product Information </h1>
+        <hr/>
+        <a href="AddProd"> Add New Product </a>
+        <table border="1">
+            <tr>
+                <th> Product_ID</th>
+                <th> Product Name </th>
+                <th> Manufacturer </th>
+                <th> Category </th>
+                <th> Product Type </th>
+                <th> Price </th>
+            </tr>
+            <tr>
+                {% for prod in products %}
+                    <tr>
+                        <td> {{prod.id}}</td>
+                        <td> {{prod.prodname}}</td>
+                        <td> {{prod.mnftr}}</td>
+                        <td> {{prod.category}}</td>
+                        <td> {{prod.prodtype}}</td>
+                        <td> {{prod.price}}</td>
+                        <td> <a href = "/EditProd/{{prod.id}}"> Edit </a> </td>
+                        <td> <a href = "/DelProd/{{prod.id}}" onclick="return confirm ('Do you want to delete?)"> Delete </a></td>
+                    </tr>
+                {% endfor %}
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

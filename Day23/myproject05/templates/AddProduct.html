@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Add Product </title>
+</head>
+<body>
+    <center>
+        <h1> Add a New Product </h1>
+        <hr>
+        <form method="POST">
+            {% csrf_token %}
+            <table border="1">
+                <tr>
+                    <td> Product Name :</td>
+                    <td> <input type="text" placeholder="product name" name="prdname"></td>
+                </tr>
+                <tr>
+                    <td> Manufacturer :</td>
+                    <td> <input type="text" placeholder="manufacturer" name="mnftr"></td>
+                </tr>
+                <tr>
+                    <td> Category :</td>
+                    <td> <input type="text" placeholder="cat" name="cat"></td>
+                </tr>
+                <tr>
+                    <td> Product Type :</td>
+                    <td> <input type="text" placeholder="product type" name="ptype"></td>
+                </tr>
+                <tr>
+                    <td> Price :</td>
+                    <td> <input type="text" placeholder="price" name="prc"></td>
+                </tr>
+            </table><br>
+            <input type="submit" value="AddProd">
+            <a href= "{% url 'Prod' %}"> HomePage </a>
+            {% if messages %}
+                {% for msg in messages %}
+                    <b style="color: green;"> {{msg}}</b>
+                {% endfor %}
+            {% endif %}
+        </form>
+    </center>
+</body>
+</html>
