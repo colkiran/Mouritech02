@@ -1,0 +1,14 @@
+
+Connect to Mysql
+CRUD on MYSQL
+
+REST API - CRUD
+---------------
+
+{% url 'updatedata' st.id %}
+{% url 'deletedata' st.id %}
+
+REST API
+---------
+EMPLOYEES
+

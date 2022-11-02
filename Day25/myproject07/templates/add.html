@@ -1,0 +1,49 @@
+
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-4">
+            <h4 class="text-center alert alert-info">Add New Product</h4>
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" class="btn btn-success" value="Add">
+            </form>
+        </div>
+        <div class="col-sm-7 offset-1">
+            <h4 class="text-center alert alert-info"> Show Product Details </h4>
+            {% if stu %}
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">Prodid</th>
+                        <th scope="col">Prodname</th>
+                        <th scope="col" >Category</th>
+                        <th scope="col">Prodtype</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% for st in stu %}
+                        <tr>
+                            <th scope="row">{{st.Prodid}}</th>
+                            <td>{{st.Prodname}}</td>
+                            <td>{{st.Category}}</td>
+                            <td>{{st.Prodtype}}</td>
+                            <td>{{st.Price}}</td>
+                            <td>
+                                <a href = "{% url 'updatedata' st.id %}" class="btn btn-warning">Edit</a>
+                                <form action="{% url 'deletedata' st.id %}"  method="POST" class = "d-inline"> {% csrf_token %}
+                                    <input type="submit" class="btn btn-danger" value="Delete">
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <h4 class="text-center alert alert-warning">No Data</h4>
+            {% endif %}
+        </div>
+    </div>
+{% endblock content %}
