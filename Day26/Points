@@ -1,0 +1,51 @@
+
+Models with relations
+---------------------
+
+Products (Child Table)
+--------
+Prodid
+Prodname
+Categoryid
+ProductType
+Price
+
+
+
+Category (Master)
+--------
+Categoryid
+Categoryname
+
+
+from django.contrib import admin
+from .models import Author, Editor, Reader
+from myproject.admin_site import custom_admin_site
+
+@admin.register(Author, Reader, Editor, site=custom_admin_site)
+class PersonAdmin(admin.ModelAdmin):
+    pass
+
+Design Patterns
+---------------
+1. Creational Pattern
+2. Structural Pattern
+3. Behavioral Pattern
+
+
+Singleton Pattern (CP)
+----------------------
+
+
+Factory Method (CP)
+-------------------
+Factory Method is a creational design pattern that provides an interface for
+creating objects in a superclass, but allows subclasses to alter the type of
+objects that will be created.
+
+Bridge Pattern (SP)
+--------------
+Bridge is a structural design pattern that lets you split a large class or
+a set of closely related classes into two separate hierarchies—abstraction
+and implementation—which can be developed independently of each other.
+
