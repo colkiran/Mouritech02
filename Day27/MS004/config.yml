@@ -1,0 +1,13 @@
+
+pyms:
+  services:
+    requests:
+      propogate_headers: true
+    tracer:
+      client: 'jaeger'
+      host: 'localhost'
+      component_name: "Python Microservice"
+  config:
+    APP_NAME: "Python Microservice"
+    debug: true
+
