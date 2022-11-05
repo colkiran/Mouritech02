@@ -1,0 +1,28 @@
+
+JARVIS - Just a rather very intelligent system
+
+what is jarvis?
+JARVIS is a Voice-Based AI Assistant which is developed in Python Programming Language. It uses Different Technologies To Add New Unique Features. It can Automate Tasks with just One Voice Command. It is a Desktop Based AI Assistant.
+
+1. pyttsx3: pyttsx is a cross-platform text to speech library which is platform independent
+
+2. SpeechRecognition = This library allows us to convert speech to text for further processing
+
+3. pywhatkit- This is a easy to use library that will help us to interact with browser very easily
+
+4. Wikipedia: we'll use this to fetch a variety of information from the wikipedia website
+
+5. requests = This is an elegant and simple HTTP library for Python that allows to send HTTP/1.1 requests extremely easily
+
+6. Python-decouple - this usese .env file, we'll install another module called python-decouple
+
+7. pyaudio provides python binding for PortAudio V19, this is the cross platform audio i/o library
+
+1. pip install jarvis
+2. pip install SpeechRecognition
+3. pip install pywhatkit
+4. pip install wikipedia
+5. pip install requests
+6. pip install python-decouple
+7. pip install pyaudio
+
